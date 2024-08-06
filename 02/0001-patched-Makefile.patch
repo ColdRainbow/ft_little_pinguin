@@ -1,0 +1,28 @@
+From f1b75631cfa34501969c645b742aa1e55681590d Mon Sep 17 00:00:00 2001
+From: jkate <jkate@wolfsburg-student.de>
+Date: Sat, 29 Jun 2024 23:34:37 +0000
+Subject: [PATCH] patched Makefile
+
+"Patched Makefile"
+
+Signed-off-by: jkate <jkate@wolfsburg-student.de>
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 4d36f943b3b1..36ed3ff8c024 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 6
+ PATCHLEVEL = 10
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc5
++EXTRAVERSION = -thor_kernel
+ NAME = Baby Opossum Posse
+ 
+ # *DOCUMENTATION*
+-- 
+2.43.0
+
